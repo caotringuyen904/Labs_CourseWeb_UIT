@@ -1,0 +1,56 @@
+/* NGUYEN CAO TRI - 21522918 */
+body .border-gray {
+  border: 3px solid rgb(200, 200, 200);
+}
+
+body table .border-gray tr th {
+  border: 3px solid rgb(200, 200, 200);
+}
+
+body table .border-gray tr td {
+  border: 3px solid rgb(200, 200, 200);
+}
+
+body table thead tr .border-tlr {
+  border-top: 4px solid #333;
+  border-left: 4px solid #333;
+  border-right: 4px solid #333;
+}
+
+body table tbody tr .border-lr {
+  border-right: 4px solid #333 ;
+  border-left: 4px solid #333 ;
+  border-collapse: collapse;
+
+}
+
+body table tbody tr .border-lrb {
+  border-right: 4px solid #333;
+  border-left: 4px solid #333;
+  border-bottom: 4px solid #333;
+  border-collapse: collapse;
+}
+
+
+body table thead tr .border-r {
+  border-right: 4px solid red;
+  border-collapse: collapse;
+}
+
+body table tbody tr .border-r {
+  border-right: 4px solid red;
+  border-collapse: collapse;
+
+}
+
+body table thead tr .bg-thead {
+  background-color: rgb(224, 223, 223);
+}
+
+body table tbody tr .bg-thead {
+  background-color: rgb(224, 223, 223);
+
+}
+
+
+
