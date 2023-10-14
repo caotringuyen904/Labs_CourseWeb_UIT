@@ -1,0 +1,155 @@
+/* 21522918 - NGUYEN CAO TRI */
+
+body {
+  background-color: #fff;
+  color: #333;
+  margin: 0;
+  font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.logo {
+  font-size: 200%;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.grid {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 980px;
+}
+
+nav {
+  background-color: #000;
+  padding: 0.5em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+.photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+}
+
+.container {
+  /* Use flexbox for layout */
+  font-size: 16px;
+  text-align: left;
+}
+
+
+.feature {
+  float: left;
+  width: 200px;
+  height: 200px;
+  max-width: 50%;
+  /* Adjust the image width as needed */
+  margin-right: 20px;
+  margin-bottom: 30px;
+
+}
+
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  /* You can use other values like 'space-between' or 'space-evenly' depending on your design preference */
+  list-style: none;
+  /* Remove bullet points for list items */
+  padding: 0;
+  /* Remove default padding */
+}
+
+/* Style the individual list items */
+.nav-menu li {
+  margin: 0;
+  /* Remove default margin */
+}
+
+/* Style the anchor links within the list items */
+.nav-menu li {
+  text-decoration: none;
+  /* Remove underlines from links */
+  color: #333;
+  /* Set link text color */
+}
+
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  /* Adjust this value as needed */
+  align-items: flex-start;
+  /* Adjust this value as needed */
+
+}
+
+/* Style the left side (article) */
+.left {
+  flex: 2;
+  /* Allow it to grow and take available space */
+  margin-right: 20px;
+  /* Add some spacing between left and right sides */
+
+}
+
+/* Style the right side (aside) */
+.right {
+  flex: 1;
+  /* Allow it to grow and take available space */
+}
+
+
+
+/* ---------- */
+
+/* Style the image pairs */
+.image-pair {
+  display: flex;
+}
+
+/* Style the individual images within each pair */
+.image-pair .photos li {
+  flex: 1;
+  /* Allow images to grow and take available space within the pair */
+
+}
+
+/* Style the single image at the end */
+.image-single {
+  display: flex;
+  justify-content: flex-end;
+  /* Align the single image to the end */
+}
+
+.image-single .photos li img {
+  width: 50%;
+  /* Set the width to 100% */
+}
+
+
+
+
+/* ----------------- */
+
+
+/*  */
